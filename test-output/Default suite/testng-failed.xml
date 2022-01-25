@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="review_US_NC_main.CreateRequest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="review_US_NC_main.CreateRequest">
+        <methods>
+          <include name="Create_Req"/>
+          <include name="select_jrss"/>
+          <include name="select_Req"/>
+          <include name="alert_check"/>
+          <include name="setup"/>
+          <include name="RIPC_Login"/>
+          <include name="skill_Req"/>
+          <include name="req_detail"/>
+          <include name="skill_loc"/>
+          <include name="supp"/>
+          <include name="skill_price"/>
+        </methods>
+      </class> <!-- review_US_NC_main.CreateRequest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
